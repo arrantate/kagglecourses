@@ -1,0 +1,4 @@
+$ virtualenv venv
+$ source venv/bin/activate
+(venv) $ pip install ipykernel pandas sklearn
+(venv) $ ipython kernel install --user --name=venv
